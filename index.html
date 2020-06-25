@@ -20,7 +20,7 @@
       <li><a href="#weblog">وبلاگ</a></li>
       <li><a href="#contact">ارتباط با من</a></li>
     </ul>
-   <a href="index.html" class="logo-top"><img class="logo" src="image/Logo 1 White.png" alt="logo"></a>
+    <a href="index.html" class="logo-top"><img class="logo" src="image/Logo 1 White.png" alt="logo"></a>
   </nav>
   <!--start section Header -->
   <header>
@@ -37,15 +37,20 @@
   <section>
     <!--start section aboutme -->
     <article id="aboutme">
-      <P class="bio">
-        <h3>درباره من</h3>
-        محمد ابراهیمی هستم متولد وساکن سمنان برنامه نویس و طراح سایت البته هنوز اول راه هستم . به برنامه نویسی و کار با
-        کامپیوتر علاقه دارم وهمین باعث شد به این رشته گرایش پیدا کنم . از سال 1396 وارد رشته کامپیوتر شدم .
-        سعی ام بر این هست که روز به روز با تکنو لوژی های جدید وب سایر پلتفرم ها بیشتر آشنا بشم
+      <img src="image/me.jpg" alt="me" class="picme">
+      <div class="bio">
+        <P>
+          <h3>درباره من</h3>
+          محمد ابراهیمی هستم متولد وساکن سمنان برنامه نویس و طراح سایت البته هنوز اول راه هستم . به برنامه نویسی و کار
+          با
+          کامپیوتر علاقه دارم وهمین باعث شد به این رشته گرایش پیدا کنم . از سال 1396 وارد رشته کامپیوتر شدم .
+          سعی ام بر این هست که روز به روز با تکنو لوژی های جدید وب سایر پلتفرم ها بیشتر آشنا بشم
 
-      </P>
-      <h3>تخصص ها</h3>
+        </P>
+      </div>
+
       <div class="profission">
+        <h3>تخصص ها</h3>
         <span class="profission-item">html</span> <span class="profission-item">css</span>
         <span class="profission-item">JavaScript</span> <span class="profission-item">Photoshop</span>
         <span class="profission-item">Linux</span> <span class="profission-item"></span>
@@ -55,9 +60,11 @@
     <!--start section blog -->
     <article id="blog">
       <h2>آخرین مطالب وبلاگ</h2>
-      <hr>
       <div class="post1">
-
+      </div>
+      <div class="post2">
+      </div>
+      <div class="post3">
       </div>
 
       <a href="blog.html" class="a btncontineu">مشاهده همه مطالب</a>
@@ -74,11 +81,11 @@
         </P>
       </div>
       <div class="contact-form">
-        <form action="#" method="GET" name="frm-msg">
-          <input type="text" placeholder="NAME">
-          <input type="text" placeholder="EMAIl"> <br />
-          <textarea name="" id="" cols="" rows="" placeholder="MESSAGE ..."></textarea>
-          <br><input type="submit" value="ارسال پیام"> 
+        <form action="#" method="GET" name="frm-msg" class="contactfrm">
+          <input type="text" placeholder="نام">
+          <input type="text" placeholder="ایمیل"> <br />
+          <textarea name="" id="" cols="" rows="" placeholder="پیام ..."></textarea>
+          <br><input type="submit" value="ارسال پیام">
         </form>
       </div>
 
@@ -99,8 +106,8 @@
       <a href="#"><i class="fa fa-stack-overflow"></i></a>
       <a href="#"><i class="fa fa-telegram"></i></a>
     </p>
-    <p dir="ltr">&copy; Designed by <a href="index.html"> me.</a></p>
-    
+    <p dir="ltr">&copy; Designed by <a href="#aboutme" style="text-decoration: underline; color: white;"> me.</a></p>
+
   </footer>
 </body>
 

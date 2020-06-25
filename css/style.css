@@ -3,32 +3,37 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: b nazanin bold,arial;
+  font-family: b nazanin bold, arial;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 /*start Navaigation*/
-nav{
+nav {
   width: 100%;
   height: 60px;
-  background-color:black ;
+  background-color: black;
   /* position: sticky;
   top: 0px; */
 }
-nav ul{
+
+nav ul {
   margin: 0px;
   padding: 0px;
 }
-nav ul li{
+
+nav ul li {
   list-style-type: none;
   float: right;
   width: 100px;
   height: 60px;
   text-align: center;
-  
+
 }
-nav ul li a{
+
+nav ul li a {
   color: white;
   font-size: 18px;
   display: block;
@@ -36,43 +41,49 @@ nav ul li a{
   box-sizing: border-box;
   padding: 16px 8px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
   color: black;
   background-color: rgb(78, 78, 78);
 }
-a img.logo{
+
+a img.logo {
   height: 46px;
   width: 130px;
   float: left;
-} 
+}
+
 /*End Navaigation*/
 
 /* start header*/
 header {
   background-image: url(../image/home-bg.jpg);
   width: 100%;
-  height: 500px;
-  background-size: 100% 500px;
-  background-repeat: no-repeat;
-  
+  height: 700px;
+  background-size: 100% 660px;
+
 }
-h2.name-header{
+
+h2.name-header {
   text-align: center;
   color: white;
   position: relative;
   top: 120px;
 
 }
-h5.info-header{
+
+h5.info-header {
   text-align: center;
   color: white;
   position: relative;
   top: 100px;
 }
+
 div.icon-social {
   position: relative;
   top: 90px;
-text-align: center;}
+  text-align: center;
+}
 
 i.fa {
   color: white;
@@ -89,10 +100,73 @@ article#pictures {}
 
 article#contact {}
 
+/* about me*/
+img.picme {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 500px;
+  padding: 4px;
+  align-self: center;
+  margin: 8px 50% 8px 50%;
+  box-sizing: border-box;
+}
+
+div.bio {
+  width: 49%;
+  height: 400px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border: 1px solid black;
+}
+
+div.profission {
+  width: 49%;
+  height: 400px;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: -400px;
+  margin-right: 50%;
+  padding: 8px 16px;
+  border: 1px solid black;
+
+}
+
+/* section blog*/
+article#blog {
+  height: 400px;
+
+}
+        /* posts */
+div.post1 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+div.post2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: -300px;
+  margin-right: 300px;
+}
+div.post3 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: -300px;
+  margin-right: 600px;
+}
+
 /* contact */
 .contact {
-  width: 100%;
+  width: ;
   height: 400px;
+  padding: 0px 40px 0px 40px;
 }
 
 .cotact-info {
@@ -112,6 +186,35 @@ article#contact {}
   padding: 16px 8px;
   box-sizing: border-box;
 }
+
+form.contactfrm {
+  font-family: b nazanin;
+  font-size: 24px;
+
+}
+
+form.contactfrm input[type=text] {
+  width: 45%;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+
+form.contactfrm textarea {
+  width: 90%;
+  height: 100px;
+  resize: none;
+}
+
+form input[type=submit] {
+  width: 90%;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
 /* Footer */
 footer {
   width: 100%;
